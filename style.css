@@ -55,3 +55,309 @@ a{
     -webkit-font-smoothing: antialiased;
 }
 
+/****Partie océane******/
+body{
+  font-family:'Helvetica Neue';
+}
+header{
+  margin: 0;
+  width: 100vw;
+}
+header.Logo{
+  width: 50%;
+}
+.logo{
+  margin-top: 10px;
+  width: 90px;
+  position: relative;
+  z-index: 5;
+}
+
+.toggle{
+  font-size: 1.5rem;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 5;
+}
+.fa-xmark{
+  visibility: hidden;
+}
+.open .fa-bars{
+  display: none;
+}
+.open .fa-xmark{
+  visibility: visible;
+}
+.Nav{
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 4;
+  transform: translateX(-100%);
+
+}
+.open .Nav{
+  transform: translateX(0);
+}
+span{
+    background-color: white;
+    border-radius: 50%;
+    display: block;
+}
+
+.Nav li{
+  list-style-type: none;
+}
+.black{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+.Red{
+  text-decoration: none;
+  color: rgba(150, 52, 22, 0.788);
+  font-size: 16px;
+  font-weight: bold;
+}
+label{
+  width: 80vw;
+  height: 40px;
+  margin: auto;
+  position: relative;
+}
+label input{
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin:0 10px ;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fa-magnifying-glass{
+  position: absolute;
+  top: 2px;
+  left: 90%;
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(24, 23, 23);
+}
+.MagasinCompte{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+}
+.fa-location-dot{
+  color:#004E38 ;
+  font-size: 1.3rem;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.compte{
+  display: inline;
+  float: right;
+  font-size: 0.9rem;
+  color: grey;
+  margin-top: 18px ;
+  cursor: pointer;
+}
+.fa-user{
+  margin-right: 10px;
+  font-size: 1.3rem;
+  float: left;
+  margin-top: 15px;
+  color:#004E38 ;
+  
+}
+.after{
+  margin-top: 15px;
+  color: grey;
+  font-size: 0.9rem;
+}
+.basket{
+  background-color: #28a17f;
+  height: 45px;
+  width: 50px;
+  text-align: center;
+  padding-top: 8px;
+  border-radius: 25px;
+  position: fixed;
+  left: 82%;
+  top: 88%;
+  z-index: 20;
+}
+.fa-basket-shopping{
+  font-size: 2rem;
+  color: white;
+  
+}
+
+.slider{
+  width: 100vw;
+  overflow: hidden;
+  margin-bottom: 5px;
+ 
+}
+.slides{
+  width: calc(100vw* 2);
+  animation: carousel 20s infinite ease;
+}
+
+.slide{
+  float: left;
+  width: 100vw;
+  
+}
+.slide img{
+  width: 100vw;
+  object-fit: fill;
+  height: 30vh;
+  background-size: cover;
+}
+
+@keyframes carousel {
+  0%{
+    transform: translateX(0);
+  }
+  
+  50%{
+    transform: translateX(-100vw);
+  }
+  
+  100%{
+    transform: translateX(0);
+  }
+  
+}
+h1{
+  font-size: 1.8rem;
+  text-align: center;
+  color: #004E38;
+}
+
+.indispensables{
+  width: 90%;
+  margin: auto;
+}
+.indispensableProduits{
+  width: 100%;
+
+}
+.slidesIndis{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.Box{
+  width: 40%;
+  margin-right: 20px;
+  position: relative;
+}
+.imgPlancha img{
+  width: 100%
+}
+.imgGéra img{
+  width: 100%
+}
+.imgCanapé img{
+  width: 100%
+}
+.Box span{
+  position: absolute;
+  top: 35%;
+  color: white;
+  background-color: #004E38;
+  border-radius: 5px;
+  width: 36%;
+  text-align: center;
+}
+.Indis{
+  font-size: 0.8rem;
+}
+.carteFidélité{
+  margin: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #E44F63;
+  margin-bottom: 20px;
+
+}
+.carteFidélité img{
+  width: 20%;
+  height: 70%;
+  margin: 10px 30px;
+
+}
+
+/*partie Hayet----*/
+/*Bloc parent----*/
+.conteneur{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid rgb(248, 244, 244);
+    padding: 5px;
+    box-sizing: border-box;
+    background-color:#ebf9f3;
+}
+/*--enfant du conteneur nommé b1--*/
+.b1{
+    width: 100%;
+    height: 470px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color:white;
+}
+/*--taille de la photo lys--*/
+.lys{
+    width: 100%;
+}
+/*--mise en page du texte du conteneur Parent--*/
+.idées{
+    color:#136a55;
+    font-size:60px;
+    text-align: center;
+    font-style: oblique;
+}
+/*--titre sous la photo lys--*/
+.magazine{
+    text-align:left;
+    font-size: 25px;
+    color: black;
+
+}
+span{
+    background-color: white;
+    border-radius: 50%;
+    display: block;
+}
+
+/*--fin bloc parent----*/
+
+/*----------END HAYET----------*/
+
+
+/*******partie jadla footer**********/
+.ecolo{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+
+
+
