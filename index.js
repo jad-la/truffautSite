@@ -1,6 +1,6 @@
-let menuBurger = document.querySelector('.menuBurger');
+let toggle = document.querySelector('.toggle');
 let body = document.querySelector('body');
 
-menuBurger.addEventListener('click', function(){
-  body.classList.menuBurger('open');
+toggle.addEventListener('click', function(){
+  body.classList.toggle('open');
 })

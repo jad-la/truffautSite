@@ -1,35 +1,55 @@
+/****Partie océane******/
 body{
   font-family:'Helvetica Neue';
 }
 header{
+  margin: 0;
   width: 100vw;
 }
 header.Logo{
   width: 50%;
-  margin-top: 20px;
 }
 .logo{
-  margin-top: 20px;
-  width: 100px;
+  margin-top: 10px;
+  width: 90px;
+  position: relative;
+  z-index: 5;
 }
-.menuBurger{
- 
-  font-size: 2rem;
+
+.toggle{
+  font-size: 1.5rem;
   position: absolute;
-  top: 20px;
+  top: 25px;
   right: 20px;
+  cursor: pointer;
+  z-index: 5;
+}
+.fa-xmark{
+  visibility: hidden;
 }
 .open .fa-bars{
   display: none;
 }
 .open .fa-xmark{
-  display: block;
+  visibility: visible;
 }
 .Nav{
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: space-between;
+  background-color: white;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  z-index: 4;
+  transform: translateX(-100%);
 
+}
+.open .Nav{
+  transform: translateX(0);
 }
 span{
     background-color: white;
@@ -54,7 +74,7 @@ span{
 }
 label{
   width: 80vw;
-  height: 50px;
+  height: 40px;
   margin: auto;
   position: relative;
 }
@@ -63,30 +83,31 @@ label input{
   border: none;
   border-bottom: 1px solid gray;
   margin:0 10px ;
-  height: 30px;
+  height: 20px;
   text-align: center;
+  cursor: pointer;
 }
 
 .fa-magnifying-glass{
   position: absolute;
   top: 2px;
   left: 90%;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 300;
   color: rgb(24, 23, 23);
 }
 .MagasinCompte{
   width: 80%;
-
   display: flex;
   justify-content: space-between;
-  margin: 10px auto;
+  margin: auto;
 
 }
 .fa-location-dot{
   color:#004E38 ;
   font-size: 1.3rem;
   margin-right: 5px;
+  cursor: pointer;
 }
 .compte{
   display: inline;
@@ -94,7 +115,7 @@ label input{
   font-size: 0.9rem;
   color: grey;
   margin-top: 18px ;
-
+  cursor: pointer;
 }
 .fa-user{
   margin-right: 10px;
@@ -130,7 +151,7 @@ label input{
 .slider{
   width: 100vw;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
  
 }
 .slides{
@@ -271,5 +292,6 @@ span{
 /*--fin bloc parent----*/
 
 /*----------END HAYET----------*/
+
 
 
