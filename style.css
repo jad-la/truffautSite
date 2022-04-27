@@ -1,3 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#fff;
+}
+
+.bloc1, .bloc2{
+    margin:0;
+    position: relative;
+    display: inline-block;
+}
+
+a{
+    margin-bottom: 14px;
+    display:block;
+    position: relative;
+    float: left;
+    text-decoration:none;
+    color:#1979c3;
+}
+
+.bloc1-photo, .bloc2-photo{
+    height: auto;
+    display: block;
+    position: relative;
+    max-width: 100%;
+}
+
+.bloc1-title-button, .bloc2-title-button{
+    top: 12%;
+    position: absolute;
+    left:1em;
+    right: 1em;
+    text-align: center;
+}
+
+.title1, .title2{
+    height:110px;
+    width: 100%;
+    font-size: 3.5em;
+    margin-bottom:0.8rem;
+    font-weight: 700;
+    line-height: 1.11em;
+    color:#fff;
+    text-shadow: 0 0 2px rgb(0 0 0 / 50%);
+}
+
+.button1, .button2{
+
+    height: 4.45em;
+    line-height: 4.75em;
+    padding:0 4.6em;
+    border-radius: 2.725em;
+    -webkit-font-smoothing: antialiased;
+}
+
 /****Partie océane******/
 body{
   font-family:'Helvetica Neue';
