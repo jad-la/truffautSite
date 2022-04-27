@@ -274,7 +274,7 @@ h1{
 }
 .Box span{
   position: absolute;
-  top: 35%;
+  top: 65%;
   color: white;
   background-color: #004E38;
   border-radius: 5px;
@@ -290,7 +290,19 @@ h1{
   height: 80px;
   background-color: #E44F63;
   margin-bottom: 20px;
+  position: relative;
 
+}
+.carteFidélité button{
+  height: 35px;
+  width: 120px;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  background-color: #004E38;
+  color: white;
 }
 .carteFidélité img{
   width: 20%;
@@ -347,11 +359,90 @@ span{
 
 
 /*******partie jadla footer**********/
-.ecolo{
+/*.ecolo{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  width: 90%;
+  margin: auto;
+}****/
+
+.fondation1{
+  position: relative;
+  width: 35%;
+  
 }
+.fondation1 img{
+  width: 100%;
+}
+.fondation1 h2 {
+  position: absolute;
+  color: white;
+  font-weight: 400;
+  top: 58%;
+  font-size: 15px;
+
+}
+.fondation1 p{
+  position: absolute;
+  color: white;
+  font-weight: 400;
+  top: 75%;
+  font-size: 15px;
+}
+.fondation2{
+  position: relative;
+  width: 35%;
+  
+}
+.fondation2 img{
+  width: 100%;
+}
+.fondation2 h2 {
+  position: absolute;
+  color: white;
+  font-weight: 400;
+  top: 65%;
+  font-size: 15px;
+
+}
+.fondation2 p .fa-circle-right{
+  margin-left: 50px;
+}
+.fondation2 p{
+  position: absolute;
+  color: white;
+  font-weight: 400;
+  top: 75%;
+  font-size: 15px;
+}
+.fondation3{
+  position: relative;
+  width: 35%;
+  
+}
+.fondation3 img{
+  width: 100%;
+}
+.fondation3 h2 {
+  position: absolute;
+  color: white;
+  font-weight: 400;
+  top: 58%;
+  font-size: 15px;
+
+}
+.fondation3 p{
+  position: absolute;
+  color: white;
+  font-weight: 400;
+  top: 75%;
+  font-size: 15px;
+}
+.fondation3 p .fa-circle-right {
+  margin-left: 70px;
+}
+
 
 
 
