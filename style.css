@@ -260,10 +260,12 @@ h1{
 /*--enfant du conteneur nommé b1--*/
 .b1{
     width: 100%;
-    height: 470px;
-    margin: 0 auto;
+    height: 600px;
+    margin-bottom: 90px;
     box-sizing: border-box;
     background-color:white;
+    position:relative;
+    
 }
 /*--taille de la photo lys--*/
 .lys{
@@ -278,15 +280,120 @@ h1{
 }
 /*--titre sous la photo lys--*/
 .magazine{
-    text-align:left;
+    margin-left: 10px;
+    position: absolute;
+    top: 95%;
     font-size: 25px;
     color: black;
 
 }
-span{
+/*--titre sous la photo lys*/
+.b1 span{
     background-color: white;
     border-radius: 50%;
-    display: block;
+    text-align: center;
+    height: 3em;
+    line-height: 3em;
+    border-radius: 60%;
+    position:absolute;
+    top: 75%; 
+    left: 40%;
+    z-index: 10;
+}
+
+/*--Bloc b2 Atelier*/
+.b2 span{
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    height: 3em;
+    line-height: 3em;
+    border-radius: 60%;
+    position:absolute;
+    top: 75%; 
+    left: 40%;
+    z-index: 10;
+}
+/*--taille de la photo Atelier--*/
+.atelier{
+    width: 100%;
+}
+/*--Bloc b3 BBQ*/
+.b3 span{
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    height: 3em;
+    line-height: 3em;
+    border-radius: 60%;
+    position:absolute;
+    top: 75%; 
+    left: 40%;
+    z-index: 10;
+}
+/* association des 2 photos bbq + podcast sur le bloc B3*/
+.b3{
+  display: flex;
+  justify-content: space-around; 
+}
+/*----taille des 2 images du bloc b3------*/
+.b3-1{
+    width: 40%;
+}
+
+.b3-2{
+    width: 40%;
+}
+/*--taille de la photo BBQ--*/
+.bbq{
+    width: 110%;
+}
+
+/*--taille de la photo BBQ--*/
+.podcast{
+    width: 110%;
+}
+
+/*--Bloc b4 photo podcast
+.b4 span{
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    height: 3em;
+    line-height: 3em;
+    border-radius: 60%;
+    position:absolute;
+    top: 75%; 
+    left: 40%;
+    z-index: 10;
+}
+*/
+
+/*--concerne tous les Icons--*/
+.jaune{
+    text-align: center;
+    font-size: 30px;
+    width: 3em;
+    line-height: 3em;
+    height: auto;
+    position: relative;
+    color:#dfba5d;  
+}
+.b4{
+    margin-left: 15%;
+}
+
+.BUTTONCONSEILS{
+    width: 600px;
+    height: 40px;
+    margin:auto;
+    background-color:#1f1e46;
+    font-size: 20px;
+    align-items: center;
+    border-radius: 25px;
+    color: white
+   
+    
 }
 
 /*--fin bloc parent----*/
