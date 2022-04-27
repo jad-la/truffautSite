@@ -1,53 +1,43 @@
 
 
-.bloc1, .bloc2{
-    margin:0;
-    position: relative;
-    display: inline-block;
-}
-
-a{
+.bloc2produits{
+    margin:0px;
+    padding:0px;
     margin-bottom: 14px;
-    display:block;
     position: relative;
-    float: left;
-    text-decoration:none;
-    color:#1979c3;
 }
 
-.bloc1-photo, .bloc2-photo{
+.bloc2produits-photo{
     height: auto;
-    display: block;
-    position: relative;
     max-width: 100%;
 }
 
-.bloc1-title-button, .bloc2-title-button{
-    top: 12%;
+.bloc2produits-title{
     position: absolute;
-    left:1em;
+    top: 12%;
+    left: 0.5px;
     right: 1em;
     text-align: center;
-}
-
-.title1, .title2{
-    height:110px;
+    height:35px;
     width: 100%;
-    font-size: 3.5em;
+    font-size: 200%;
     margin-bottom:0.8rem;
     font-weight: 700;
     line-height: 1.11em;
     color:#fff;
-    text-shadow: 0 0 2px rgb(0 0 0 / 50%);
 }
 
-.button1, .button2{
-
-    height: 4.45em;
-    line-height: 4.75em;
-    padding:0 4.6em;
-    border-radius: 2.725em;
-    
+.bloc2produits-button{
+    position: absolute;
+    top: 50%;
+    left:88px;
+    right: 1em;
+    text-align: center;
+    width: 45%;
+    padding:10px;
+    border-radius: 50px;
+    background: #11112d;
+    color:#fff;
 }
 
 /****Partie océane******/
